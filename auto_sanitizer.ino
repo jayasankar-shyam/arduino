@@ -1,8 +1,8 @@
 #include <Servo.h>
 Servo myservo;
 int servoPin = 3;
-int trig = 12;
-int echo = 11;
+int trig = 4;
+int echo = 5;
 void setup()
 {
     myservo.attach(servoPin);
